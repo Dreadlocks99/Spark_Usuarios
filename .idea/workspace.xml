@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fc52827-c237-48a4-b811-275abc9139b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/converters/LocalDateAttributeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Permiso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Rol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/saludo.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/entities/EntidadPersistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/entities/EntidadPersistente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Router.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/generales.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/generales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/usuario.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuario.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/usuarios.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuarios.hbs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h2p2SyW3WCURrDtJLIXVF3ELiW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="domain.entities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="ahk.base.spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContextTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ahk.base.spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ContextTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.ContextTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fc52827-c237-48a4-b811-275abc9139b5" name="Default Changelist" comment="" />
+      <created>1599218841694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599218841694</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1599219234946">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599219234946" />
+    <state x="184" y="217" key="#Template_Data_Languages" timestamp="1599792753420">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="217" key="#Template_Data_Languages/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599792753420" />
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1599798784972">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599798784972" />
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1599800065239">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065239" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1599800065238">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065238" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1599800065238">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065238" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1599800065239">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065239" />
+    <state x="184" y="28" key="SettingsEditor" timestamp="1599783070692">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="28" key="SettingsEditor/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599783070692" />
+  </component>
+</project>

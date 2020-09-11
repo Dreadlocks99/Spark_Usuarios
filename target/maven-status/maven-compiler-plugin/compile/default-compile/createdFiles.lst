@@ -1,0 +1,13 @@
+db\EntityManagerHelper.class
+domain\repositories\Repositorio.class
+domain\repositories\daos\DAOMemoria.class
+spark\utils\DarkMagic.class
+domain\repositories\daos\DAO.class
+domain\repositories\daos\DAOHibernate.class
+spark\utils\HandlebarsTemplateEngineBuilder.class
+domain\entities\EntidadPersistente.class
+server\Server.class
+server\Router.class
+config\Config.class
+spark\utils\BooleanHelper$1.class
+spark\utils\BooleanHelper.class

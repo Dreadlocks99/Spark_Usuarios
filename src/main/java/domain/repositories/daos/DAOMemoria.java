@@ -26,6 +26,11 @@ public class DAOMemoria<T> implements DAO<T> {
     }
 
     @Override
+    public T buscar(BusquedaCondicional condicional) {
+        return null;
+    }
+
+    @Override
     public void agregar(Object unObjeto) {
         this.entidades.add((EntidadPersistente) unObjeto);
     }

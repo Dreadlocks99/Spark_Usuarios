@@ -1,6 +1,7 @@
 package domain.entities;
 
 import com.google.common.hash.Hashing;
+import config.Inyector;
 
 import javax.persistence.*;
 import java.nio.charset.StandardCharsets;
@@ -66,7 +67,7 @@ public class Usuario extends EntidadPersistente{
     }
 
     public void setPassword(String password) {
-        this.password = Hashing.sha256().hashString(password, StandardCharsets.UTF_8).toString();
+        this.password = Inyector.getInstance().estrategiaDeHashing().generarHash(password);
     }
 
     public LocalDate getFechaNacimiento() {

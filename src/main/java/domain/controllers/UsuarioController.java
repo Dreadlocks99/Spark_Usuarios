@@ -44,7 +44,6 @@ public class UsuarioController {
 
     }
 
-
     public ModelAndView saludar(Request request, Response response) {
         Map<String, Object> parametros = new HashMap<>();
         parametros.put("persona", request.queryParams("nombre"));
@@ -111,7 +110,9 @@ public class UsuarioController {
             usuario.setTelefono(new Integer(request.queryParams("telefono")));
         }
 
-
+        Repositorio<Rol> repoRoles = new Repositorio<>(new DAOHibernate<>(Rol.class));
+        Rol rolSeleccionado = repoRoles.buscar(new Integer(request.queryParams("rol")));
+        usuario.setRolDefinido(rolSeleccionado);
 
     }
 

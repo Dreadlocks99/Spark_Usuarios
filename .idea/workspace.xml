@@ -23,20 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fc52827-c237-48a4-b811-275abc9139b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/converters/LocalDateAttributeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Permiso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/saludo.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/entities/EntidadPersistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/entities/EntidadPersistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/Inyector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/middlewares/AuthMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/repositories/RepositorioDeUsuarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/BusquedaCondicional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libraries/hashing/EstrategiaDeHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libraries/hashing/FactoryEstrategiaDeHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/libraries/hashing/GuavaGoogleHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spark/utils/EqualsHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/controllers/UsuarioRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/entities/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/entities/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/repositories/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/repositories/Repositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/DAOHibernate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/DAOHibernate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/DAOMemoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/repositories/daos/DAOMemoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/server/Router.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/Router.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/js/generales.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/js/generales.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/usuario.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuario.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/usuarios.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/usuarios.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/usuario.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/usuario.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/usuarios.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/usuarios.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +67,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -70,6 +81,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,6 +89,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="domain.repositories.daos" />
       <recent name="domain.entities" />
     </key>
   </component>
@@ -148,29 +161,33 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="217" key="#Template_Data_Languages/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599792753420" />
-    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1599798784972">
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1599830807847">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599798784972" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1599800065239">
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599830807847" />
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1599833932257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065239" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1599800065238">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599833932257" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1599833932257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065238" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1599800065238">
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599833932257" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1599833932256">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065238" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1599800065239">
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599833932256" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1599833932257">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599800065239" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599833932257" />
     <state x="184" y="28" key="SettingsEditor" timestamp="1599783070692">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="28" key="SettingsEditor/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599783070692" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1599826796503">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768/-1366.0.1366.768@0.0.1366.768" timestamp="1599826796503" />
   </component>
 </project>

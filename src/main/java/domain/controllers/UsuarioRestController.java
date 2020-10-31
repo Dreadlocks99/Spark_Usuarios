@@ -14,12 +14,6 @@ public class UsuarioRestController {
         this.repoUsuarios = new Repositorio<>(new DAOHibernate<>(Usuario.class));
     }
 
-//    public Response login(Request request, Response response){
-//        //if usuario es valido
-//        request.session(true);
-//        request.session().attribute("id",1);
-//    }
-
     public String mostrar(Request request, Response response){
         Integer idUsuario = new Integer(request.params("id"));
         Usuario usuario = this.repoUsuarios.buscar(idUsuario);

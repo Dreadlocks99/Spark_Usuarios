@@ -1,10 +1,13 @@
 package server;
 
+import domain.controllers.LoginController;
 import domain.controllers.UsuarioController;
 import domain.controllers.UsuarioRestController;
+import domain.middlewares.AuthMiddleware;
 import spark.Spark;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 import spark.utils.BooleanHelper;
+import spark.utils.EqualsHelper;
 import spark.utils.HandlebarsTemplateEngineBuilder;
 
 public class Router {
@@ -15,6 +18,7 @@ public class Router {
                 .create()
                 .withDefaultHelpers()
                 .withHelper("isTrue", BooleanHelper.isTrue)
+                .withHelper("equals",new EqualsHelper())
                 .build();
     }
 
@@ -27,14 +31,7 @@ public class Router {
     private static void configure() {
         UsuarioController usuarioController = new UsuarioController();
         UsuarioRestController usuarioRestController = new UsuarioRestController();
-
-        //Spark.get("/hola", ((request, response) -> "Hola Eze"));
-
-        //Spark.get("/hola", ((request, response) -> "Hola " + request.queryParams("nombre")));
-
-        //Spark.get("/hola/:nombre", ((request, response) -> "Hola " + request.params("nombre")));
-
-        //Spark.get("/saludo", usuarioController::saludar, engine);
+        LoginController loginController = new LoginController();
 
         Spark.get("/usuario", usuarioController::crear,engine);
 
@@ -50,8 +47,18 @@ public class Router {
 
         Spark.get("/api/usuario/:id", usuarioRestController::mostrar);
 
+//      Mindware - Filtros - (request, response) -> response.type("application/json"));
+
         Spark.before("/api/*", (request, response) -> response.type("application/json"));
 
+        //Clase 2
+        Spark.get("/",loginController::inicio, engine);
 
+        Spark.post("/login", loginController::login);
+
+        Spark.get("/logout",loginController::logout);
+        Spark.before("/", AuthMiddleware::redirigirSiHaySesion);
+
+        //Spark.before("/*",AuthMiddleware::redirigirSiNoHaySesion);
     }
 }

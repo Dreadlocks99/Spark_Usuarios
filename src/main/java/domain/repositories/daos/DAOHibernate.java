@@ -28,6 +28,14 @@ public class DAOHibernate<T> implements DAO<T> {
     }
 
     @Override
+    public T buscar(BusquedaCondicional condicional) {
+
+        return (T) EntityManagerHelper.getEntityManager()
+                .createQuery(condicional.getCondicionCriterio())
+                .getSingleResult();
+    }
+
+    @Override
     public void agregar(Object unObjeto) {
         EntityManagerHelper.getEntityManager().getTransaction().begin();
         EntityManagerHelper.getEntityManager().persist(unObjeto);

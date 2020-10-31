@@ -99,10 +99,10 @@
                         <br>
                         <label><i class="fas fa-user-cog"></i> Rol</label>
                         <br>
-                        <select class="input-select" name="">
-                            <option selected disabled>Seleccionar</option>
+                        <select class="input-select" name="rol">
+                            <option disabled>Seleccionar</option>
                             {{#each roles}}
-                                <option value="{{id}}">{{nombre}}</option>
+                                <option value="{{id}}" {{#equals id usuario.rolDefinido.id}} selected {{/equals}}> {{nombre}}</option>
                             {{/each}}
                         </select>
 
